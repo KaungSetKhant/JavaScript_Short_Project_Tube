@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    /* padding: 10px; */
+    color: white;
+    /* background: teal; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://img.freepik.com/free-photo/glowing-lines-human-heart-3d-shape-dark-background-generative-ai_191095-1435.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705363200&semt=ais');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.calculator{
+    width: 100%;
+    max-width: 600px;
+    /* margin-left: 10%;
+    margin-top: 10%; *
+    /* margin: auto; */
+    min-height: 360px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.291);
+
+}
+.calculator h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+.calculator h3 span{
+    color: rgb(106, 224, 224);
+}
+.input-box{
+    margin: 40px 0;
+    padding: 35px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+}
+.input-box input{
+    flex: 1;
+    margin-right: 20px;
+    padding: 14px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+}
+.input-box button{
+    outline: 0;
+    border: 0;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgb(133, 130, 130);
+    background: rgb(81, 249, 249);
+}
+.input-box input::-webkit-calendar-picker-indicator{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    cursor: pointer;
+    background-size: 30px;
+    background-position: calc(100% - 10px);
+}
+#result{
+    font-size: 20px;
+    text-align: center;
+}
+#result span{
+    color: rgb(81, 249, 249);
+}

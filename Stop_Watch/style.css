@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: rgb(142, 246, 246);
+}
+.stop_watch{
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(167, 250, 223, 0.8)),
+    url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwcvQsM8-g8UhqIkYhqovspXo29w2py-MZLaIBlHXL9w6X15KhrwmQrEplNiMeVNnrkZsYznXjYFlLXwJ0a-cEI5OQv7_MUv1MF5xc434aM88hZZ-JnU-Id8EGWHOcAXCBAkEZL3VKjCWE-BtfLP7p8UoO50SZ0rOGd2OtV1gz2hDOfxd3UP6AG3TViQ/w640-h360/4k-pc-wallpaper-ai-art.webp');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 200px auto 0;
+    padding: 40px 0;
+    color: #fff;
+    box-shadow: 0 10px 10px rgba(142, 142, 142, 0.8);
+    border-radius: 5px;
+}
+.stop_watch h1{
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 300;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons img{
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.buttons img:nth-child(2){
+    width: 80px;
+}
+.buttons img:hover{
+    transform: scale(1.2);
+}
